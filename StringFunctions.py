@@ -1,0 +1,17 @@
+mystr ="shubham is a good boy"
+print(mystr [0:9])
+# To make a substring from string
+print(len(mystr))
+print(mystr[0:20:2])
+print(mystr[:6])
+print(mystr[0:])
+print(mystr[::2])
+print(mystr.isalnum())
+print(mystr.isalpha())
+print(mystr.endswith("boy"))
+print(mystr.count("o"))
+print(mystr.capitalize())
+print(mystr.find("is"))
+print(mystr.upper())
+print(mystr.lower())
+print(mystr.replace("is","are"))
