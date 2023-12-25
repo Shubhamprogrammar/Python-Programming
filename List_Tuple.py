@@ -6,6 +6,7 @@ Numbers.extend([10,20])
 Numbers.insert(2,736)
 Numbers.remove(9)
 Numbers.pop()
+print(Numbers.index(100))
 #Numbers.sort()
 #Numbers.reverse()
 Numbers[1] = 97
@@ -34,3 +35,9 @@ tup = (4,3,9,8,"Shaan","Radhe")
 for i in tup:
     if str(i).isnumeric():
         print(i)
+
+# Practice
+# Q.1. Write a program to create a cumulative frequency and add it into the list
+# Q.2. Write a generalised program to get the input from the user and add it into the list
+# Q.3. Write a program to reverse the list
+# Q.4. Write a program to print the list in reverse without reversing the list
