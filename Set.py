@@ -28,3 +28,9 @@ print(sett)
 
 thisset.clear()
 print(thisset)
+
+# Practice
+# Q.1. Prepare a generalized set by taking user input
+# Q.2. Write a program to find the maximum and minimum element in the set
+# Q.3. Write a program to reverse the set
+# Q.4. Create a list and then two setA and setB and then find happiness, setA contain all the element which you like and setB contain all the element which you dislike so if elements occur in setB then happiness-1 and if elements occur in setA then happiness+1(increment). Calculate total happiness
