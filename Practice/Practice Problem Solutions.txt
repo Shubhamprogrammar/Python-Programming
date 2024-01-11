@@ -1,0 +1,71 @@
+1) Take two numbers from the user & display the average of that two number
+
+a = int(input("Enter 1st number: "))
+b = int(input("Enter 2nd number: "))
+print("The Average is: ",(a+b)/2)
+
+2) Find the area of rectangle using its length and breadth
+
+length = int(input("Enter the length for triangle: "))
+breadth = int(input("Enter the breadth for triangle: "))
+print("The Area of Rectangle is: ",length*breadth)
+
+3) Take 5 subjects marks of student and display the percentage
+
+eng = 72
+math = 95
+phy = 80
+chem = 85
+bio = 60
+per = (eng+math+phy+chem+bio)/5
+print(f"The Percentage is: {per}")
+
+4) Take two number and store it in a & b and check which one is smaller.
+
+a = int(input())
+b = int(input())
+print(a>b)
+print(a<b)
+
+5) Take one variable as string and another as integer and add them & Check what will happen
+
+var = "Disha Institute"
+num = 52
+print(var+num)
+# Check the result, result will be an error as string and integer cannot be concatenated in python
+
+6) Take a string & reverse it
+
+txt = "Hello World"
+var = txt[::-1]
+print(var)
+
+7) Find the number of characters present in the given string "DISHA INSTITUTE"
+
+var = "DISHA INSTITUTE"
+print(len(var))
+
+8) Check whether a number is odd or even using if-else
+
+num = int(input("Enter the number:\n"))
+if num%2==0:
+    print("It is Even")
+else:
+    print("It is odd")
+
+9) Check whether a number is positive or negative
+
+num = int(input("Enter the number:\n"))
+if num>0:
+    print("It is positive number")
+else:
+    print("It is negative number")
+
+10) Check whether the person is eligible for vote or not
+
+age = int(input("Enter the number:\n"))
+if age>=18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
+
