@@ -32,19 +32,19 @@ class Employee:
         
 e1=Employee()
 e1.setId(1)
-e1.setName("Suraj Sahani")
+e1.setName("Shubham")
 e1.setDepartment("Development")
-e1.setRole("Web Developer")
+e1.setRole("Developer")
 
 e2=Employee()
 e2.setId(2)
-e2.setName("Amit Sahani")
+e2.setName("Roshan")
 e2.setDepartment("Development")
 e2.setRole("Frontend Developer")
 
 e3=Employee()
 e3.setId(3)
-e3.setName("Rakesh Sahani")
+e3.setName("Soham")
 e3.setDepartment("Development")
 e3.setRole("Backend Developer")
 
