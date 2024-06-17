@@ -11,7 +11,7 @@
 """
 
 """
-f = ("Harry.txt", "rt")
+f = open("Harry.txt", "rt")
 content = f.read()
 print(content)
 
@@ -53,6 +53,6 @@ with open("Shubham.txt","rt") as f:#This is the same as open and close & it is a
     print(a)
 
 # Practice
-# Q.1. Write a program to create a file into another foler by specifying path and write "I love my country" int the file.
+# Q.1. Write a program to create a file into another folder by specifying path and write "I love my country" in the file.
 # Q.2. Write a program to read the file which is created in above question 
 # Q.3. Write a program to append the data into the file and then print the content by changing the pointer again and again
